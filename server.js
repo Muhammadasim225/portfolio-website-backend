@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3001;
 // Middleware
 app.use(cors());
 app.use(cors({
-  origin: 'https://your-frontend.vercel.app', // allow your frontend domain
+  origin: 'https://portfolioweb-kufv7s2r9-muhammad-asims-projects-6fc73532.vercel.app/', // allow your frontend domain
   methods: ['POST', 'GET'],
   credentials: true
 }));
